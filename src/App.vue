@@ -1,11 +1,11 @@
-<script setup></script>
+<script setup>
+import MyComponent from './components/Mycomponent.vue'
+import MyNewComponent from './components/MyNewcomponent.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <MyComponent />
+  <MyNewComponent />
 </template>
 
 <style scoped></style>
