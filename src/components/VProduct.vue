@@ -6,7 +6,7 @@ defineProps({
 })
 </script>
 <template>
-    <div class="p-5 bg-slate-100 rounded-x1 flex flex-col justify-content gap-2">
+    <div class="p-5 bg-slate-100 rounded-xl flex flex-col justify-between gap-2">
             <div>
               <img :src="imgUrl" alt="" class="mb-4"/>
                 <h3 class="text-xl font-semibold">
